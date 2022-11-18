@@ -1,0 +1,135 @@
+.todo-app {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-app .logo {
+  width: 100px;
+  margin: 16px 0;
+}
+
+.todo-app .logo-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.todo-app .image {
+  display: flex;
+  width: 200%;
+  justify-content: center;
+}
+
+.todo-app .image-wrapper {
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+.todo-app .title {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.todo-app .message {
+  font-size: 15px;
+  text-align: center;
+}
+
+.todo-app .paragraph {
+  font-size: 14px;
+}
+.todo-app .add-button {
+  background-color: #0058ab;
+  padding: 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  width: 200px;
+}
+.todo-app .form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 16px;
+  width: 100%;
+}
+.todo-app .form .form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.todo-app .form .form-item label {
+  margin-bottom: 8px;
+}
+.todo-app .form .form-item input {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  padding: 0 16px;
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.06);
+  height: 56px;
+}
+.todo-app .form .form-item input:focus {
+  outline: none;
+  border-color: #0058ab;
+}
+.todo-app .form .form-item button {
+  background-color: #fbd914;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 60px;
+}
+.todo-app .todos {
+  width: 100%;
+}
+.todo-app .completed-todos {
+  width: 100%;
+}
+.todo-app .completed-todos .title {
+  text-decoration: underline dashed;
+  font-weight: normal;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 16px 0;
+}
+.todo-app .todo-sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+  width: 100%;
+}
+.todo-app .todo-sort .title {
+  font-weight: normal;
+  font-size: 20px;
+}
+.todo-app .todo-sort .item {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 16px;
+  text-decoration: underline dashed;
+}
+.todo-app .todo-sort .active {
+  color: #0058ab;
+  font-weight: bold;
+}
+.todo-app .todo-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.04);
+  margin-bottom: 16px;
+}
+.todo-app .todo-item label {
+  margin-left: 16px;
+  width: 100%;
+}
+.todo-app .todo-item .done {
+  text-decoration: line-through;
+}
